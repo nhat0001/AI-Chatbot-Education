@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # AI-Chatbot-Education
 =======
 # React + TypeScript + Vite
