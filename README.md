@@ -1,4 +1,7 @@
 # AI-Chatbot-Education
+In order to run the website (locally), run the following command in the terminal at the directory
+npm run dev
+
 =======
 # React + TypeScript + Vite
 
