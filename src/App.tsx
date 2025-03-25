@@ -54,6 +54,14 @@ function App() {
       {/* Logo shown only before first message is sent */}
       {showLogo && <img src={auburn_logo} alt="Logo Image" className="logo-img" />}
       {showLogo && <p className="logo">ESOL AI Chatbot</p>}
+      {showLogo && (
+        <div className="login-box">
+          <h3>Login</h3>
+          <input type="text" placeholder="Username" className="login-input" />
+          <input type="password" placeholder="Password" className="login-input" />
+          <button className="login-button">Login</button>
+        </div>
+      )}
 
       {/* Main scrollable chat area */}
       <div className="chat-container">
