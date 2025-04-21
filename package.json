@@ -10,6 +10,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "botframework-webchat": "^4.8.0",
+    "core-js": "^3.41.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
