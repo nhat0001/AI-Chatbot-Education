@@ -43,7 +43,7 @@ import Chatbot from './Chatbot';
  */
 function App() {
   //Token key can be acquire from (Agent) Settings -> Security -> Web channel security  
-  // Token key should be update in .env only
+  // Token key should be update in .env only (create your own .env)
   const secret = import.meta.env.VITE_DIRECT_LINE_SECRET;
 
   //Randomly generate userID (future extension)
